@@ -70,9 +70,9 @@ in
         ])
 
         (lib.mkIf cfg.lenovo-thinkpad-t14s.enable [
-          # Needed for t14s LCD display
-          "pwm_bl"
-          "leds_qcom_lpg"
+          # Needed for t14s LCD display (disabled for now)
+          #"pwm_bl"
+          #"leds_qcom_lpg"
 
           # Needed for USB
           "phy_nxp_ptn3222"
